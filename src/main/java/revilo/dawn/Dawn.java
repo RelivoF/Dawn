@@ -27,7 +27,7 @@ public final class Dawn extends Abstract_Mod {
 	// DON'T CHANGE (I will find where you live if you do)!
 	@Mod.EventHandler public final void onPreLoad           (FMLPreInitializationEvent    aEvent) {onModPreInit(aEvent);}
 	@Mod.EventHandler public final void onLoad              (FMLInitializationEvent       aEvent) {onModInit(aEvent);}
-	@Mod.EventHandler public final void onPostLoad          (FMLPostInitializationEvent    aEvent) {onModPostInit(aEvent);}
+	@Mod.EventHandler public final void onPostLoad          (FMLPostInitializationEvent   aEvent) {onModPostInit(aEvent);}
 	@Mod.EventHandler public final void onServerStarting    (FMLServerStartingEvent       aEvent) {onModServerStarting(aEvent);}
 	@Mod.EventHandler public final void onServerStarted     (FMLServerStartedEvent        aEvent) {onModServerStarted(aEvent);}
 	@Mod.EventHandler public final void onServerStopping    (FMLServerStoppingEvent       aEvent) {onModServerStopping(aEvent);}
