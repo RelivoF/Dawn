@@ -139,7 +139,4 @@ dependencies {
     //compileOnly 'org.apache.commons:commons-math3:3.2' // Needed for dev opis because it doesn't know how to specify dependencies properly
     //compileOnly 'org.jfree:jcommon:1.0.21' // Needed for dev opis because it doesn't know how to specify dependencies properly
     //compileOnly 'org.jfree:jfreechart:1.0.17' // Needed for dev opis because it doesn't know how to specify dependencies properly
-
-    // GeckoLib - unofficial
-    implementation "geckolib:1.0.3"
 }
